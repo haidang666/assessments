@@ -1,0 +1,17 @@
+{
+  "name": "la-coco-crypto-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev:web": "pnpm --filter './apps/web' dev",
+    "dev:server": "pnpm --filter './apps/server' start:dev"
+  },
+  "workspaces": [
+    "apps/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
